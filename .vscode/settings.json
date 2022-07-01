@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "stdio.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled",
+    "python.testing.pytestArgs": [
+        "sahil"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
