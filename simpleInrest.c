@@ -10,6 +10,6 @@ int main(){
     simpleinterest=principal*rate*time/100;
 
     printf("%f",simpleinterest);
-    return 0;
+    return 07;
 
 }
