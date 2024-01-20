@@ -1,11 +1,9 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include <iostream>
 
-int add(int arr[],int n){
-    int ans=0;
-    for(int i=0;i<n;i++){
-        ans=ans+arr[i];
-
+int add(int arr[], int n) {
+    int ans = 0;
+    for (int i = 0; i < n; i++) {
+        ans = ans + arr[i];
     }
     return ans;
 }
