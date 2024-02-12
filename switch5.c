@@ -8,7 +8,7 @@ int main(){
         case 1 || 2:
         printf("Good give me your number");
         break;
-       case a||b: 
+    //    case a||b: 
         printf("Bad out my class");
         break;
     }
