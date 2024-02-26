@@ -24,3 +24,5 @@ void stats(int *s, double *a, double *sd){
     return;
     
 }
+// what is space and run time complexity of this program?
+// Space complexity is O(1) and run time complexity is O(1) because the number of inputs is fixed and the number of operations is also fixed.
