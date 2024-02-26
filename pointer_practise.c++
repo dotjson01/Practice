@@ -1,10 +1,9 @@
-#include<bits/stdc++.h>
-using namespace std;
+#include<iostream>
 
 int main(){
     int arr[]={10,20,30,40};
     int *ptr=arr;
-    cout<<sizeof(arr)<<endl;
-    cout<<sizeof(ptr)<<endl;
+    std::cout<<sizeof(arr)<<std::endl;
+    std::cout<<sizeof(ptr)<<std::endl;
     return 0;
 }
