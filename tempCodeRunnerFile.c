@@ -1,1 +1,2 @@
-    return ;
+
+    j=j*j;
