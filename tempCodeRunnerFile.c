@@ -1,2 +1,1 @@
-
-    j=j*j;
+    factorize(num,2);
