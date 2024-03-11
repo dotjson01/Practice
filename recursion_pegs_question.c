@@ -36,7 +36,11 @@ void hanoi(int n, char source, char target, char auxiliary) {
 }
 
 int main() {
-    // initiate call from source A to target C with auxiliary B
+
     hanoi(4, 'A', 'C', 'B');
     return 0;
 }
+
+
+// recursion_pegs_answer.c
+//
