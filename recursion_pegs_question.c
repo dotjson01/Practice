@@ -44,3 +44,8 @@ int main() {
 
 // recursion_pegs_answer.c
 //
+// #include <stdio.h>
+//
+// void hanoi(int n, char source, char target, char auxiliary) {
+//     if (n > 0) {
+//         // Move n - 1 disks from source to auxiliary, so they are out of the way
