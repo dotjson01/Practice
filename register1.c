@@ -1,4 +1,4 @@
-#include <stdio.h>
+// #include <stdio.h>
 
 // int main() {
 //     int sum = 0;  // Regular variable (not in register)
@@ -13,3 +13,18 @@
 
 //     return 0;
 // }
+
+/*More Optimise Solution using formula */
+
+#include <stdio.h>
+
+int main() {
+    unsigned char n = 100; // Number of elements to sum
+
+    // Formula for sum of first n natural numbers
+    unsigned int sum = n * (n + 1) / 2;
+
+    printf("Sum of first %u numbers: %u\n", n, sum);
+
+    return 0;
+}
