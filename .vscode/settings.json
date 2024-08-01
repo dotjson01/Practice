@@ -2,5 +2,8 @@
     "files.associations": {
         "ratio": "c"
     },
-    "C_Cpp.errorSquiggles": "disabled"
+    "C_Cpp.errorSquiggles": "disabled",
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#00FF00",
+    }
 }
