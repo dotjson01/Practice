@@ -14,7 +14,7 @@ int main(){
     if(num3>largest){
         largest =num3;
     }
-    cout<<"Largest number"<<largest<<endl;;
+    cout<<"Largest number: "<<largest<<endl;;
     return 0;   
 
 }
