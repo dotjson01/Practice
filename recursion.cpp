@@ -13,5 +13,5 @@ int main() {
     }
     
     std::cout << "Result: " << a + b + c << std::endl;  // Added label and endl
-     0;  // Added return statement 
+    return 0;  // Added return statement 
 }
