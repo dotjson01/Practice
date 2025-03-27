@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// checking the memory is leaked or not 
 // void memoryLeakExample() {
 //     int* ptr = new int(10);  // 🔥 Memory allocated but not freed (Memory Leak)
 //     cout << "Memory Leak Example Running..." << endl;
@@ -10,7 +11,7 @@ using namespace std;
 void memoryLeakExample() {
     int* ptr = new int(10);
     cout << "Memory Leak Fixed!" << endl;
-    delete ptr;  // ✅ Memory freed
+    delete ptr;  // ✅ Memory free
 }
 
 int main() {
