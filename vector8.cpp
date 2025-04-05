@@ -17,7 +17,7 @@ int main() {
     int i = 0;
 
 
-    while (i != end) {
+    while (i <= end) {
         if (arr[i] == 0) {
             std::swap(arr[start], arr[i]);
             start++;

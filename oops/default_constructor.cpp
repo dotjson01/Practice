@@ -1,3 +1,8 @@
+/*
+Jaise hi tum ek room book karte ho, ek receptionist (constructor) tumhara naam, room number, aur default AC settings set kar deta hai.
+
+Tumhe manual setup karne ki zaroorat nahi hoti (yeh automatic hota hai).
+*/
 #include<iostream>
 using namespace std;
 
@@ -18,7 +23,7 @@ void getDetails() {
     cout<<"Guest Name: "<< GuestName <<endl;
     cout<<"Room Number: "<< roomNumber<<endl;
     cout<<"AC Avaiable: "<< AC<<endl;
-    
+
 } 
 
 };

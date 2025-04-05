@@ -22,3 +22,12 @@ int main(){
 
     return 0;
 }
+
+/*
+Call by Reference (with &):
+
+You share a direct link to your Google Doc
+Any changes either person makes are instantly visible to both
+You both see and edit the SAME document
+
+*/

@@ -35,3 +35,13 @@ int main() {
 
     return 0;
 }
+
+
+// Imagine you are organizing a party and you have two guest lists: arr and brr. You want to create a new list, ans, that contains only the guests who are on both lists.
+
+// Here's how you do it:
+
+// You start with an empty list ans.
+// You take the first guest from arr and check if they are on brr.
+// If you find the guest on brr, you add them to ans and stop checking further for this guest because you already know they are invited.
+// You move to the next guest in arr and repeat the process.

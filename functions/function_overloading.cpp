@@ -18,6 +18,6 @@ int main(){
     int first = add(a,b,c);
     int second = add(a,b,c,d);
 
-    std::cout<<"First Addition "<<first<<std::endl<<" Second Addition "<<second<<endl;
+    std::cout<<"First Addition "<<first<<std::endl<<"Second Addition "<<second<<endl;
     return 0;
 }

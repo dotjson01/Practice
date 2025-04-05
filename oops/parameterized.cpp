@@ -32,6 +32,4 @@ int main(){
     // for next user
     HotelRoom h2(490,"Sahil");
     h2.getDetails();
-
-    
 }

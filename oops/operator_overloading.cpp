@@ -23,7 +23,7 @@ public:
     Complex operator + (Complex c)
     {
         Complex temp;
-        temp.real = real + c.real;  // ❌ You had written c1.real, which is not defined
+        temp.real = real + c.real;  
         temp.img = img + c.img;
         return temp;
     }

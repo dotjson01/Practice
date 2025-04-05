@@ -28,11 +28,6 @@ Call by Value (without &):
 
 Your friend gets a separate copy of your document
 Changes they make won't affect your original
-Call by Reference (with &):
-
-You share a direct link to your Google Doc
-Any changes either person makes are instantly visible to both
-You both see and edit the SAME document
 
 
 Without the &, this function would:

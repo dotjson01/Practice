@@ -1,4 +1,4 @@
-// access function via using pointer 
+// access function via using pointer under stack memory 
 #include<iostream>
 using namespace std;
 
@@ -17,7 +17,7 @@ class Rectangle { // declared class
 };
 
 int main(){
-    Rectangle r1; // object created
+    Rectangle r1; // object created in stack memory
     Rectangle *ptr;
     ptr = &r1;
     ptr -> length = 10;

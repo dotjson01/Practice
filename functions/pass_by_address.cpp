@@ -23,3 +23,12 @@ int main(){
     
     return 0;
 }
+
+/*
+
+Think of it like this:
+
+& is like getting someone's home address
+* is like visiting that address to talk to the person
+
+*/
