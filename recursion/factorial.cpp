@@ -2,7 +2,7 @@
 using namespace std;
 
 int fact(int x) {
-    if (x == 0 || x == 1) {
+    if (x == 0 || x == 1 ) {
         return 1;
     } else {
         return fact(x - 1) * x;
@@ -11,6 +11,7 @@ int fact(int x) {
 
 int main() {
     int n;
+    cout<< "Enter a number: ";
     cin >> n;
 
     if(n < 0){
