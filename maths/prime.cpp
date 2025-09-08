@@ -14,7 +14,7 @@ bool isPrime(int n)
 
 	// Check from 2 to square root of n
 	for (int i = 2; i <= sqrt(n); i++)
-		if (n % 2 == 0)
+		if (n % i == 0)
 			return false;
 
 	return true;
