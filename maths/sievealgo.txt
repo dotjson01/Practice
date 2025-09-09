@@ -1,0 +1,83 @@
+Step-by-Step Iterations for n = 30
+Let’s go through each iteration of the outer loop and its corresponding inner loop, showing how isPrime changes.
+Initial State
+
+isPrime: [false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true] (indices 0 to 30).
+isPrime[0] = isPrime[1] = false, all others true.
+
+Outer Loop: i = 2
+
+Condition: 2 * 2 = 4 <= 30 (true), so proceed.
+Check: isPrime[2] = true (2 is prime), so run the inner loop.
+Inner Loop: for (int k = 2; 2 * k <= 30; k++)
+
+k = 2: j = 2 * 2 = 4, 4 <= 30 (true) → isPrime[4] = false
+k = 3: j = 2 * 3 = 6, 6 <= 30 (true) → isPrime[6] = false
+k = 4: j = 2 * 4 = 8, 8 <= 30 (true) → isPrime[8] = false
+k = 5: j = 2 * 5 = 10, 10 <= 30 (true) → isPrime[10] = false
+k = 6: j = 2 * 6 = 12, 12 <= 30 (true) → isPrime[12] = false
+k = 7: j = 2 * 7 = 14, 14 <= 30 (true) → isPrime[14] = false
+k = 8: j = 2 * 8 = 16, 16 <= 30 (true) → isPrime[16] = false
+k = 9: j = 2 * 9 = 18, 18 <= 30 (true) → isPrime[18] = false
+k = 10: j = 2 * 10 = 20, 20 <= 30 (true) → isPrime[20] = false
+k = 11: j = 2 * 11 = 22, 22 <= 30 (true) → isPrime[22] = false
+k = 12: j = 2 * 12 = 24, 24 <= 30 (true) → isPrime[24] = false
+k = 13: j = 2 * 13 = 26, 26 <= 30 (true) → isPrime[26] = false
+k = 14: j = 2 * 14 = 28, 28 <= 30 (true) → isPrime[28] = false
+k = 15: j = 2 * 15 = 30, 30 <= 30 (true) → isPrime[30] = false
+k = 16: j = 2 * 16 = 32, 32 <= 30 (false) → Inner loop stops.
+
+
+After i = 2: isPrime[4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30] = false
+isPrime State: [false, false, true, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false, true, false]
+
+Outer Loop: i = 3
+
+Condition: 3 * 3 = 9 <= 30 (true), so proceed.
+Check: isPrime[3] = true (3 is prime), so run the inner loop.
+Inner Loop: for (int k = 3; 3 * k <= 30; k++)
+
+k = 3: j = 3 * 3 = 9, 9 <= 30 (true) → isPrime[9] = false
+k = 4: j = 3 * 4 = 12, 12 <= 30 (true) → isPrime[12] = false (already false from i = 2)
+k = 5: j = 3 * 5 = 15, 15 <= 30 (true) → isPrime[15] = false
+k = 6: j = 3 * 6 = 18, 18 <= 30 (true) → isPrime[18] = false (already false)
+k = 7: j = 3 * 7 = 21, 21 <= 30 (true) → isPrime[21] = false
+k = 8: j = 3 * 8 = 24, 24 <= 30 (true) → isPrime[24] = false (already false)
+k = 9: j = 3 * 9 = 27, 27 <= 30 (true) → isPrime[27] = false
+k = 10: j = 3 * 10 = 30, 30 <= 30 (true) → isPrime[30] = false (already false)
+k = 11: j = 3 * 11 = 33, 33 <= 30 (false) → Inner loop stops.
+
+
+After i = 3: isPrime[9, 12, 15, 18, 21, 24, 27, 30] = false
+isPrime State: [false, false, true, true, false, true, false, true, false, false, false, true, false, true, false, false, false, true, false, true, false, false, false, true, false, true, false, false, false, true, false]
+
+Outer Loop: i = 4
+
+Condition: 4 * 4 = 16 <= 30 (true), so proceed.
+Check: isPrime[4] = false (marked by i = 2), so skip the inner loop.
+Inner Loop: Not executed.
+After i = 4: No changes to isPrime.
+isPrime State: Unchanged.
+
+Outer Loop: i = 5
+
+Condition: 5 * 5 = 25 <= 30 (true), so proceed.
+Check: isPrime[5] = true (5 is prime), so run the inner loop.
+Inner Loop: for (int k = 5; 5 * k <= 30; k++)
+
+k = 5: j = 5 * 5 = 25, 25 <= 30 (true) → isPrime[25] = false
+k = 6: j = 5 * 6 = 30, 30 <= 30 (true) → isPrime[30] = false (already false)
+k = 7: j = 5 * 7 = 35, 35 <= 30 (false) → Inner loop stops.
+
+
+After i = 5: isPrime[25, 30] = false
+isPrime State: [false, false, true, true, false, true, false, true, false, false, false, true, false, true, false, false, false, true, false, true, false, false, false, true, false, false, false, false, false, true, false]
+
+Outer Loop: i = 6
+
+Condition: 6 * 6 = 36 <= 30 (false), so the outer loop stops.
+
+Final State
+
+isPrime: [false, false, true, true, false, true, false, true, false, false, false, true, false, true, false, false, false, true, false, true, false, false, false, true, false, false, false, false, false, true, false]
+Primes (where isPrime[i] = true): 2, 3, 5, 7, 11, 13, 17, 19, 23, 29.
