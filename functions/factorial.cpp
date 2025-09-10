@@ -1,18 +1,22 @@
 #include<iostream>
+using namespace std;
 
-
-int factorial(int n){
-    if(n == 0)
-    return 0;
-    else if(n == 1)
-    return 1;
-
-    return n * factorial(n-1);
+long long factorial(int n) { // Use long long to handle larger factorials
+    if (n == 0 || n == 1) return 1;
+    return n * factorial(n - 1);
 }
-int main(){
+
+int main() {
     int n;
-    std::cout<<"Enter the Factorial Number"<<std::endl;
-    std::cin>>n;
-    std::cout<<"Factorial of "<<n<<" is = "<<factorial(n);
-    std::cout<<std::endl;
+    cout << "Enter the Factorial Number" << endl;
+    cin >> n;
+    cout << "Factorial of " << n << " is = " << factorial(n);
+    cout << endl;
+    return 0;
 }
+
+
+
+
+
+

@@ -1,5 +1,6 @@
 {
     "files.associations": {
+        "*.dbclient-js": "javascript",
         "ratio": "c",
         "any": "cpp",
         "array": "cpp",
@@ -90,7 +91,8 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "valarray": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "__nullptr": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled",
     "workbench.colorCustomizations": {
