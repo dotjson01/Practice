@@ -85,15 +85,7 @@ int main() {
 
 
 
-
-
-
-
-
-
-
-
-
+// optimised approached 10^9
 
 #include <bits/stdc++.h>   // includes all standard headers
 using namespace std;
