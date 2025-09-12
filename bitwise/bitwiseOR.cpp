@@ -6,3 +6,7 @@ int main(){
     cout<< ( a | b )<<endl;
     return 0;
 }
+ 
+
+// dono input agar ZERO hai toh output bhi ZERO hoga
+// baaki chahiye kaise bhi value bhi fark nhi padta  
