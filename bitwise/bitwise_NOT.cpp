@@ -2,8 +2,12 @@
 using namespace std;
 int main(){
 
-    int a= 5 ;
+    int a= 5 ; // treated as signed bit aur signed bit 2's complement pe kaam krteh  h { Left se Right 1 first bit h toh : -1 }
+    int c= 11;
+    unsigned int b = 5;
     cout<<(~a)<<endl;
+    cout<<(~b)<<endl;
+    cout <<(~c)<<endl; // Trick to remember : -(x+1)
     return 0;
 }
 
