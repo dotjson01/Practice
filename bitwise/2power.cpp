@@ -32,6 +32,7 @@ int main(){
 
     if(n<0){
         cout<<"Enter the positive number"<<endl;
+        return ;
     } 
     int count = 0 ;
     while(n>1){
