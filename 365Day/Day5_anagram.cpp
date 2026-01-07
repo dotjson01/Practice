@@ -41,7 +41,7 @@ int main() {
     
     cout << sol.areAnagrams("geeks", "kseeg") << endl;     // 1 (true)
     cout << sol.areAnagrams("allergy", "allergyy") << endl; // 0 (false)
-    cout << sol.areAnagrams("listen", "lists") << endl;     // 0 (false)
+    cout << sol.areAnagrams("listen", "lists") << endl;     // 0 (false)//
     
     return 0;
 }
