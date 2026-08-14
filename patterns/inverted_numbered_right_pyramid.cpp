@@ -1,16 +1,24 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
-    for(int i=1;i<=5;i++){
-        int k=1;
-        for(int j=5;j>=i;j--){
-            cout<<k;
-            k++;
+void fin(int n)
+{
+    for (int i = 0; i <= n; i++)
+    {
+        for (int j = 1; j <= n - i; j++)
+        {
+            cout<<j<< " ";
         }
         cout<<endl;
     }
-    return 0;
+}
+
+int main()
+{
+    int n;
+    cout << "Enter the number" << endl;
+    cin >> n;
+    fin(n);
 }
 
 /*
