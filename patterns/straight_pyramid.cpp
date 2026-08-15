@@ -13,7 +13,7 @@ void fun(int n)
             cout << " ";
         }
         // loop inside inner loop
-        for (int k = 1; k <= 2 * i + 1; k++)
+        for (int k = 1; k <= 2 * i + 1; k++) // yaaha pe <= 2 * i - 1 kr skte ho lekin yeh hai ki phli line negative hogi joh ki star print nhi krega
         {
             cout << "*";
         }
